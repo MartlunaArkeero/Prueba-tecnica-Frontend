@@ -3,7 +3,7 @@
 ## Contexto
 El objetivo de la prueba es conocer las habilidades técnicas del candidato bajo el entorno de desarrollo con el que se trabaja en Arkeero 2.0.
 
-## Desarrollo frontend
+### Desarrollo frontend
 Desarrolla una pequeña aplicación usando NextJS que cumpla con los siguientes requisitos:
 
 1. Se debe contar con una sección de bienvenida.
@@ -25,11 +25,11 @@ Desarrolla una pequeña aplicación usando NextJS que cumpla con los siguientes 
 10. Al dar clic en guardar debe tener el modal de confirmación: ”Está seguro de guardar los datos”. Si es si los datos se deben enviar (dejar la data en console log del lado del servidor de next), si es no los debe volver al formulario.
 11. Dentro de los clientes debe tener un botón de activar o deshabilitar cliente esto permite cambiar el estatus del cliente sin recargar la lista o tabla de clientes.
 
-## Nota para ejecución
+### Nota para ejecución
 - Consumir el endpoint: “Link de prueba”
 - Token del endpoint: “Token de endpoint”
 
-## Qué se evaluará
+### Qué se evaluará
 - Creación de componentes reutilizables.
 - Hacer uso del paso propiedades entre componentes.
 - Consumo de APIs consumiendo de forma correcta el API y usando de forma correcta el servidor de NextJS y el cliente de NextJS.
@@ -41,9 +41,20 @@ Desarrolla una pequeña aplicación usando NextJS que cumpla con los siguientes 
 - Cada prueba se evaluará según su completitud, calidad del código, manejo de errores, seguridad y eficiencia.
 - La prueba debe enviarse en un repositorio público de GitHub.
 
-## Puntos Extras
+### Puntos Extras
 - Uso de React Hook Form para validación de formularios, acompañado de un schema builder (zod, yup, valibot, o el de su preferencia).
 - Despliegue de la aplicación (compartir el URL del despliegue).
 - Hacer commits de progreso.
+
+## Pruebas Genéricas
+
+Estas pruebas se centran en problemas tecnologicos no necesariamente relacionados con un framework
+
+### Deteccion de visibilidad
+
+El Objetivo es,usando Javascript Vanilla, cambiar el color de las capas ".cuadrado" cuando se encuentren visibles en mas de un 50% dentro del viewport. Hay que devolverlas al color original cuando deje de cumplirse esta condicion
+
+Workspace: https://jsfiddle.net/dblarkeero/8a4250vg/
+
 
 ¡Suerte y que la fuerza te acompañe!
