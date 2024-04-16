@@ -26,8 +26,8 @@ Desarrolla una pequeña aplicación usando NextJS que cumpla con los siguientes 
 11. Dentro de los clientes debe tener un botón de activar o deshabilitar cliente esto permite cambiar el estatus del cliente sin recargar la lista o tabla de clientes.
 
 ## Nota para ejecución
-- Consumir el endpoint: “Link de prueba”
-- Token del endpoint: “Token de endpoint”
+- Consumir el endpoint: https://api.json-generator.com/templates/9ZT8mBiV5UFu/data
+- Token del endpoint: Bearer muwzxphjdhmgfwvsoqbsnwb2tdvs6sdsnggh6mko
 
 ## Qué se evaluará
 - Creación de componentes reutilizables.
